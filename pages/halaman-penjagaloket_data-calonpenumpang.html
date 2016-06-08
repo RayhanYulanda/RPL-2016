@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="shortcut icon"href="../../image/anti.jpg"/>
+    <head>
+        <title>Data Calon Penumpang</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+        <style>
+            body {
+                font: 20px Montserrat, sans-serif;
+                line-height: 1.8;
+                color: #f5f6f7;
+            }
+            p {font-size: 16px;}
+            .margin {margin-bottom: 45px;}
+            .bg-1 { 
+                background-color: #1abc9c; /* Green */
+                color: #ffffff;
+            }
+            .bg-2 { 
+                background-color: #474e5d; /* Dark Blue */
+                color: #ffffff;
+            }
+            .bg-3 { 
+                background-color: #ffffff; /* White */
+                color: #555555;
+            }
+            .bg-4 { 
+                background-color: #2f2f2f; /* Black Gray */
+                color: #fff;
+            }
+            .container-fluid {
+                padding-top: 70px;
+                padding-bottom: 70px;
+            }
+            .navbar {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border: 0;
+                border-radius: 0;
+                margin-bottom: 0;
+                font-size: 12px;
+                letter-spacing: 5px;
+            }
+            .navbar-nav  li a:hover {
+                color: #1abc9c !important;
+            }
+            a:hover{
+                text-decoration: none;   
+            }
+            th{
+                color: black;
+                text-align:center;
+            }
+            td{
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="../index.html"><span class="glyphicon glyphicon-home">L-TICTAL</a>
+                </div>
+                <!--<div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user">Admin Side</a></li>
+                    </ul>
+                </div>-->
+            </div>
+        </nav>
+
+        <!-- Main Container -->
+        <div class="container-fluid bg-1 text-center">
+            <div class="container">
+                <div class="col-xs-offset-0 col-xs-0">
+                    <div class="well">
+                        <center><h2 style="color:black">Data Calon Penumpang CV. Mentari Tour</h2></center>
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-12">
+                            <hr style="border-color:black">
+                        </div>
+                        <div class="row">       
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Nama</th>
+                                    <th>Alamat</th>
+                                    <th>Tujuan</th>
+                                    <th>Jam Keberangkatan</th>
+                                    <th>Status</th>
+                                    <th>Keterangan</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr> 
+                                    <td>2465</td>
+                                    <td>Alfa</td>
+                                    <td>Darussalam</td>
+                                    <td>Banda Aceh-Meulaboh </td>
+                                    <td>14.00 WIB</td>
+                                    <td><a href='#' class='btn btn-success'>Confirm</a>
+                                    <a href='#' class='btn btn-success'>Refuse</a>
+                                    </td>
+                                    <td><div class="form-group">
+                						<input type="text" class="form-control" placeholder="Keterangan" name="nama" required>
+            							</div>
+                                        <a href='#' class='btn btn-success'>Kirim</a>
+                                        </td>
+                                </tr>
+                                <tr> 
+                                    <td>3484</td>
+                                    <td>Beta</td>
+                                    <td>Prada</td>
+                                    <td>Banda Aceh-Langsa</td>
+                                    <td>08.00 WIB</td>
+                                </tr>
+                                <tr> 
+                                    <td>3094</td>
+                                    <td>Charli</td>
+                                    <td>Lampineung</td>
+                                    <td>Banda Aceh-Calang</td>
+                                    <td>19.00 WIB</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                </div>
+    </div>
+       </div>
+</div>
+    <!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Design Theme by <a href="#">L-TICTAL</a></p> 
+</footer>
+
+</body>
+
+</html>
