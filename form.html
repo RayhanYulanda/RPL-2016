@@ -54,9 +54,6 @@
   a:hover{
    text-decoration: none;   
   }
-  .formm-group{
-	color: green;
-  }
   </style>
 </head>
 <body>
@@ -70,7 +67,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home">L-TICKTAL</a>
+      <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home">L-TICTAL</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -84,7 +81,7 @@
 
 <!-- First Container -->
 <div class="container-fluid bg-1 text-center">
-  <center><h1>FORM PEMESANAN TIKET</h1></center>
+  <center><h1>ADD DATA MEMBER</h1></center>
      <div id="wrapper">
     <div class="container">
     <div class="row">
@@ -96,7 +93,10 @@
                 <input type="text" class="form-control" placeholder="Nama" name="nama" required>
             </div> 
             <div class="form-group">
-                <input type="text" class="form-control" placeholder="Alamat" name="address" required>
+                <input type="text" class="form-control" placeholder="Email" name="email" required>
+            </div> 
+            <div class="form-group">
+                <input type="date" class="form-control" placeholder="Tanggal" name="tgl" required>
             </div>
             <div class="form-group">
                 <select class='form-control'  name='jk'>
@@ -106,39 +106,14 @@
                 </select>
             </div>
             <div class="form-group">
-            	<select class='form-control' name='tujuan'>
-                	<option placeholder='Kota Tujuan'>Kota Tujuan</option>
-                    <option value='Banda Aceh-Meulaboh'>Banda Aceh-Meulaboh</option>
-                    <option value='Banda Aceh-Langsa'>Banda Aceh-Langsa</option>
-                    <option value='Banda Aceh-Sigli'>Banda Aceh-Sigli</option>
-                    <option value='Banda Aceh-Bireun'>Banda Aceh-Bireun</option>
-                    <option value='Banda Aceh-Lhoksumawe'>Banda Aceh-Lhoksumawe</option>
-                    </select>
-            </div> 
-            <div class="form-group">
-            	<select class='form-control' name='cv'>
-                	<option placeholder='CV'>Pilih CV</option>
-                    <option value='CV. Melati'>CV. Melati</option>
-                    <option value='CV. Mawar'>CV. Mawar</option>
-                    <option value='CV. Pelangi'>CV. Pelangi</option>
-                    </select>
+                <input type="text" class="form-control" placeholder="Username" name="username" required>
             </div>
             <div class="form-group">
-                <input type="number" class="form-control" placeholder="Jumlah Tiket" name="jumlahtiket" required>
+                <input type="password" class="form-control" placeholder="Password" name="pass" required>
             </div>
             <div class="form-group">
-            	<select class='form-control' name='jadwal-keberangkatan'>
-                	<option placeholder='Jadwal Keberangkatan'>Jadwal Keberangkatan</option>
-                    <option value='08.00 WIB'>08.00 WIB</option>
-                    <option value='14.00 WIB'>14.00 WIB</option>
-                    <option value='19.00 WIB'>19.00 WIB</option>
-                    <option value='22.00 WIB'>22.00 WIB</option>
-                    </select>
-            </div> 
-            <div class="formm-group">
-                <input type="checkbox" class="form-control" name="jumlahtiket" required>Ingin memberitahukan keberadaan diri Anda melalui GPS?</input>
-            </div>
-                          
+                <button type="submit" class="btn btn-primary">ADD</button>
+            </div>      
         </form>
             </div>
         </div></div></div></div>
@@ -148,7 +123,7 @@
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
-  <p>Design Theme by <a href="#">L-TICKTAL</a></p> 
+  <p>Design Theme by <a href="#">L-TICTAL</a></p> 
 </footer>
 
 </body>
