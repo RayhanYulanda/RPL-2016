@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="shortcut icon"href="../../image/anti.jpg"/>
+    <link rel="shortcut icon"href="../image/anti.jpg"/>
 <head>
   <title>Buat Akun</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="../css/bootstrap.css">
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="css/bootstrap.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap-theme.css">
   <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -67,7 +67,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="../index.html"><span class="glyphicon glyphicon-home">L-TICTAL</a>
+      <a class="navbar-brand" href="../index.html"><span class="glyphicon glyphicon-home">L-TIKTAL</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -88,31 +88,24 @@
         <div class="col-sm-4"></div>
         <div class="col-sm-4">
             <div class="well" style="padding: 40px">
-        <form action="hasil.php" method="post" class="form-horizontal">
+        <form action="home_user.html" method="post" class="form-horizontal">
             <div class="form-group">
-                <input type="text" class="form-control" placeholder="Nama" name="nama" required>
+                <input type="text" class="form-control" placeholder="Nama" name="nama" value="Mawar" required>
             </div> 
             <div class="form-group">
-                <input type="text" class="form-control" placeholder="Email" name="email" required>
+                <input type="text" class="form-control" placeholder="Email" name="email" value="Mawar@gmail.com" required>
             </div> 
             <div class="form-group">
-                <input type="date" class="form-control" placeholder="Tanggal" name="tgl" required>
+                <input type="date" class="form-control" placeholder="Tanggal" name="tgl" value="08/08/1990" required>
             </div>
             <div class="form-group">
-                <select class='form-control'  name='jk'>
-                    <option placeholder='Jenis Kelamin' >Jenis Kelamin</option>
-                    <option value='Laki-laki'>Laki-Laki</option>
-                    <option value='Perempuan'>Perempuan</option>
-                </select>
+                <textarea row="3" class="form-control" placeholder="Alamat" name="alamat" required>Lampineung</textarea>
             </div>
             <div class="form-group">
-                <input type="text" class="form-control" placeholder="Username" name="username" required>
+                <input type="Number" class="form-control" placeholder="NO HP" name="no" value="081223445678" required>
             </div>
             <div class="form-group">
-                <input type="password" class="form-control" placeholder="Password" name="pass" required>
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-primary">ADD</button>
+                <button type="submit" class="btn btn-primary">UBAH</button>
             </div>      
         </form>
             </div>
@@ -123,7 +116,7 @@
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
-  <p>Design Theme by <a href="#">L-TICTAL</a></p> 
+  <p>Design Theme by <a href="#">L-TICKTAL</a></p> 
 </footer>
 
 </body>
