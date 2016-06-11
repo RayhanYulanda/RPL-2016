@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dashboard User</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/bootstrap.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      
+  }
+  p {font-size: 16px; text-align: left; color:black;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: aquamarine; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  a:hover{
+   text-decoration: none;   
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home">L-TICKTAL</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="pages/admin.html"><span class="glyphicon glyphicon-time">STATUS PEMESANAN</a></li>  
+        <li><a href="pages/admin.html"><span class="glyphicon glyphicon-log-out">LOGOUT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+    <div class="container-fluid bg-1 text-center">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+  <div class="well">
+      
+          <div class="row">
+      <div class="col-sm-8">
+    <center><h3 style="color:black">Data Diri</h3></center>
+                        <hr style="border-color:black">   
+    
+                            <p><label>Nama       :</label> Mawar</p>
+                            <p><label>Email      :</label> Mawar@gmail.com</p>
+                            <p><label>NO HP         :</label> 081223445678</p>
+                            <p><label>Alamat   :</label> Lampineung</p>
+                            <p><label>TTL       : </label>BNA, 8 Agustus1990</p>
+                            <a href="edit.html" class="btn btn-info">Edit Profile</a>      
+      </div>
+      <div class="col-sm-4">
+    <img src="pages/L-300.jpg" class="img-responsive img-Thumbnail" style="display:inline; margin-top: 100px" alt="L-300" width="450" height="300">
+     <label style="color: black; margin-top: 20px">Saldo Anda :</label><br>
+    <center><p style="margin-left:70px">RP. 100.000
+    </p></center>
+      </div>
+          </div>
+          
+  </div>
+            </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Design Theme by <a href="#">L-TICKTAL</a></p> 
+</footer>
+    
+    </body>
+</html>

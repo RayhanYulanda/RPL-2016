@@ -5821,8 +5821,14 @@ button.list-group-item-danger.active:focus {
 }
 .well {
   min-height: 20px;
+<<<<<<< HEAD
   padding: 19px;
   margin-bottom: 20px;
+=======
+  padding: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+>>>>>>> master
   background-color: #f5f5f5;
   border: 1px solid #e3e3e3;
   border-radius: 4px;
@@ -6757,4 +6763,15 @@ button.close {
     display: none !important;
   }
 }
+<<<<<<< HEAD
+=======
+*{margin: 0px auto;}
+#wrapper{padding: 20px;}
+
+.txt{
+    height: auto;
+    background: #c73B2F;
+    padding: 10px;
+    color: #fff;}
+>>>>>>> master
 /*# sourceMappingURL=bootstrap.css.map */
