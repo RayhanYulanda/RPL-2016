@@ -115,6 +115,7 @@
                         table#t01 th {
                             background-color: black;
                             color: white;
+                            text-align: center;
                         }
                     </style>
                     <center>
@@ -131,14 +132,14 @@
                                 <td>8/8</td>
                                 <td>26/06/2016 - Siang</td>
                                 <td>Rp. 80.000</td>
-                                <td></td>
+                                <td><center><a href="#" data-toggle="modal" data-target="#confirm-delete"><span class="glyphicon glyphicon-trash"></span></a></center></td>
                             </tr>
                             <tr>
                                 <td>Banda Aceh - Meulaboh</td>
                                 <td>8/8</td>
                                 <td>29/06/2016 - Pagi</td>
                                 <td>Rp. 100.000</td>
-                                <td></td>
+                                <td><center><a href="#" data-toggle="modal" data-target="#confirm-delete"><span class="glyphicon glyphicon-trash"></span></a></center></td>
                             </tr>
                         </table>
                     </center>
@@ -146,6 +147,29 @@
                 </div>
             </div>
 
+            <div class="modal fade" id="confirm-delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                Konfirmasi Penghapusan
+            </div>
+            <div class="modal-body">
+                Anda Yakin Ingin Mengahapus Ini?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <a class="btn btn-danger btn-ok" href="status.html?hapus=1">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
+      <script>
+        $('#confirm-delete').on('show.bs.modal', function(e) {
+            $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+            
+            $('.debug-url').html('Delete URL: <strong>' + $(this).find('.btn-ok').attr('href') + '</strong>');
+        });
+    </script>      
             <footer>
                 <div class="container">
                     <div class="row">
