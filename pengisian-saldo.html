@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>L-TickTal</title>
+    <title>Business Casual - Start Bootstrap Theme</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -27,12 +27,12 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
+
 </head>
 
 <body>
 
-    <div class="brand">L-Ticktal</div>
+    <div class="brand">L-TickTal</div>
     <div class="address-bar">Banda Aceh</div>
 
     <!-- Navigation -->
@@ -47,7 +47,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">L-Ticktal</a>
+                <a class="navbar-brand" href="index.html">L-TickTal</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -72,66 +72,111 @@
     </nav>
 
     <div class="container">
-
         <div class="row">
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">About
-                        <strong>L-Ticktal</strong>
+                    <h2 class="intro-text text-center">Pengisian Saldo
                     </h2>
                     <hr>
+                    <hr class="visible-xs">
+					</br>
+					</br>
+					<center>
+					<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal1">Via Pulsa</button>
+					<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal2">Via E-Banking</button>
+					<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal3">Via Voucher</button>
+					</center>
                 </div>
-                <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/mobil.jpg" alt="">
-                </div>
-                <div class="col-md-6" style="text-align:justify">
-                    <p>Jika anda hendak melakukan perjalanan dengan memakai angkutan umum L-300, maka anda harus mengutamakan kenyamanan dan keselamatan. Oleh karena itu anda harus mengutamakan kenyamanan dan keselamatan dari sebuah angkutan umum seperti L-300.</p>
-                    <p>Bukan hanya melayani transportasi umum, kami juga melayani perjalanan pariwisata serta melayani pengiriman barang. Saat ini L-300 di Aceh sudah memiliki rute untuk transportasi dan pengiriman paket ke seluruh Aceh.</p>
-                </div>
-                <div class="col-md-12">
-                <h3>Rute perjalanan angkutan umum L-300 di Aceh:</h3>
-                    <div style="column-count:3">
-                    <ul>
-                        <p>Banda Aceh</p>
-                        <p>Sigli</p>
-                        <p>Bireun</p>
-                        <p>Lhokseumawe</p>
-                        <p>Idi Rayeuk</p>
-                        <p>Langsa</p>
-                        <p>Kuala Simpang</p>
-                        <p>Kutacane</p>
-                        <p>Singkil</p>
-                        <p>Kotafajar</p>
-                        <p>Tapaktuan</p>
-                        <p>Labuhan Haji</p>
-                        <p>Meulaboh</p>
-                        <p>Calang</p>
-                        <p>Lamno</p>
-                    </ul>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
             </div>
         </div>
-
-      
+    </div>
+    <!-- /.container -->
 
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                      <p>Copyright &copy; L-TickTal 2016</p>
+                     <p>Copyright &copy; L-TickTal 2016</p>
                 </div>
             </div>
         </div>
     </footer>
+	
+<!-- Modal -->
+<div id="modal1" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-sm">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Via Pulsa</h4>
+      </div>
+      <div class="modal-body">
+        <p>Masukkan nomor handphone</p>
+		<input type="number">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="modal2" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-sm">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Via E-Banking</h4>
+      </div>
+      <div class="modal-body">
+        <p>Masukkan nomor rekening</p>
+		<input type="number">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="modal3" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-sm">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Via Voucher</h4>
+      </div>
+      <div class="modal-body">
+        <p>Masukkan nomor pada kartu</p>
+		<input type="number">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+
+    </script>
 
 </body>
 
